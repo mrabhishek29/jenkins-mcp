@@ -1,0 +1,16 @@
+# Jenkins MCP Server Configuration
+# Copy this file to config.yaml and fill in your credentials.
+
+server:
+  host: 127.0.0.1
+  port: 9100
+
+logging:
+  level: INFO
+  log_dir: logs
+
+jenkins:
+  enabled: true
+  base_url: https://jenkins.dev.e2open.com/jenkins
+  username: absharma
+  password: Youngsterme@12
